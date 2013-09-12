@@ -1,0 +1,12 @@
+= form_for :calculate, url: calculate_path, method: :post, html: { class: 'form-calculate' } do |f|
+  .form-calculate-heading
+    %h2 Number to English converter
+  = bootstrap_flash
+
+  = f.text_field :number, placeholder: 'Type your number here'
+  = f.label :locale
+  = f.select :locale, [['English (UK)', 'uk'], ['English (US)', 'us']]
+  = f.label :result
+  = f.text_field :result, placeholder: 'Result', readonly: true
+  %p.submit-wrapper
+    = f.submit 'Translate!', class: 'btn btn-large btn-primary'
