@@ -3,6 +3,12 @@ Number Sayer
 
 DiNa Job assessment - Ruby Programmer - Excercise 1
 
+Statuses
+--------
+[![Build
+Status](https://travis-ci.org/hron84/numbersayer.png?branch=master)](https://travis-ci.org/hron84/numbersayer)
+
+
 Excercise descrption
 --------------------
 
@@ -13,12 +19,11 @@ We need a web form, which has a numeric input field and a submit button.
 When user gives an arabic number, the system shows the english phrase of the number.
 
 For example:
-<pre>
-7    == seven
-42   == forty-two
-2001 == two thousand and one
-1999 == nineteen hundred and ninety-nine
-</pre>
+
+    7    == seven
+    42   == forty-two
+    2001 == two thousand and one
+    1999 == nineteen hundred and ninety-nine
 
 That's all.
 
