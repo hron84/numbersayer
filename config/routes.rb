@@ -59,6 +59,6 @@ Numbersayer::Application.routes.draw do
 
   root :to => 'numbersayer#show'
 
-  match 'numbersayer' => 'numbersayer#calculate', :method => :post, :as => 'calculate'
+  post 'numbersayer', :to => 'numbersayer#calculate', :as => 'calculate'
 
 end
