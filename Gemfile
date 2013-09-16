@@ -9,8 +9,6 @@ group :assets do
   gem 'uglifier'
 end
 
-gem 'sqlite3'
-
 # Webserver
 gem 'thin'
 
