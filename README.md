@@ -1,8 +1,8 @@
 Number Sayer
 ============
 
-If you give an arabic number to the form, the system shows the english phrase
-of the number.
+If you give an arabic number to the form, the application shows the english 
+phrase of the number.
 
 
 For example:
@@ -25,9 +25,9 @@ Status](https://travis-ci.org/hron84/numbersayer.png?branch=master)](https://tra
 Known bugs / limitations
 ------------------------
 
-The application currently supports numbers up to 9 999 999 999 above this limit
+ * The application currently supports numbers up to 9 999 999 999 above this limit
 it should make a serious mistakes in phrasing.
-Application also does not know the 'billion' phrase because it should confuse 
+ * Application also does not know the 'billion' phrase because it should confuse 
 some external language speakers where billion is equals to 10^12 and not 10^9
 (known example is Hungarian).
 
