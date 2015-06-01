@@ -1,22 +1,9 @@
 Number Sayer
 ============
 
-DiNa Job assessment - Ruby Programmer - Excercise 1
+If you give an arabic number to the form, the system shows the english phrase
+of the number.
 
-Statuses
---------
-[![Build
-Status](https://travis-ci.org/hron84/numbersayer.png?branch=master)](https://travis-ci.org/hron84/numbersayer)
-
-
-Excercise descrption
---------------------
-
-Create a Rails project, with a simple controller logic.
-
-We need a web form, which has a numeric input field and a submit button.
-
-When user gives an arabic number, the system shows the english phrase of the number.
 
 For example:
 
@@ -25,16 +12,28 @@ For example:
     2001 == two thousand and one
     1999 == nineteen hundred and ninety-nine
 
-That's all.
+Also the application can show numbers in two dialect: UK English and US English,
+you can just select them from the dropdown.
 
-Extra points: write your code in TDD / BDD, use cucumber, rspec, or other test 
-frameworks
+
+Statuses
+--------
+[![Build
+Status](https://travis-ci.org/hron84/numbersayer.png?branch=master)](https://travis-ci.org/hron84/numbersayer)
+
+
+Known bugs / limitations
+------------------------
+
+The application currently supports numbers up to 9 999 999 999 above this limit
+it should make a serious mistakes in phrasing.
+Application also does not know the 'billion' phrase because it should confuse 
+some external language speakers where billion is equals to 10^12 and not 10^9
+(known example is Hungarian).
 
 Licensing
 ---------
 
 Copyright (c) 2013 Gabor Garami
-
-The README file content partially copyrighted by Digital Natives Ltd.
 
 The code and design is licensed under Public Domain. See LICENSE file for details.
